@@ -3,15 +3,14 @@ import {
     Wrapper
 } from './styles';
 
-import { Navbar } from '../Navbar';
+import AppRoutes from '../../AppRoutes';
 
 export function Layout() {
     return (
         <>
             <Container>
                 <Wrapper>
-                    <Navbar/>
-                    {/* <AppRoutes/> */}
+                    <AppRoutes/>
                     {/* <Footer/> */}
                 </Wrapper>
             </Container>
